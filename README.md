@@ -15,3 +15,13 @@
 
 #There are comments to provide insights to each querry
 
+#PortfolioProject02:
+
+#This project is all about cleaning data in SQL for future use. 
+#It involves:
+#changing data type
+#Checking and replacing null values
+#Splitting columns for instance, address columns
+#Check categorical column and replace with right naming where necessary
+#Getting rid of duplicates and unuseful columns
+#etc
