@@ -5,7 +5,7 @@
 
 #a SQL Data Exploration Project
 
-#studies covid19 dataset from https://ourworldindata.org/covid-deaths
+#studies covid19 dataset from [this dataset](url)
 
 #dataset contains daily covid cases, deaths, population, and vaccinations information across the world
 
@@ -18,6 +18,7 @@
 #PortfolioProject02:
 
 #This project is all about cleaning data in SQL for future use. 
+#[Dataset used for this project:](url) 
 #It involves:
 #changing data type
 #Checking and replacing null values
