@@ -103,6 +103,20 @@ WHERE continent is not null
 GROUP BY location
 ORDER BY HighestDeathsCount ASC
 
+--Looking at TOP 20 African countries with the Highest number of deaths
+SELECT TOP 20 continent, location, MAX(Cast(total_deaths as int)) as HighestDeathsCount
+FROM PortfolioProject01..CovidCases
+WHERE continent like '%africa%'
+GROUP BY continent,location
+ORDER BY HighestDeathsCount DESC
+
+--Looking at TOP 20 African countries with the HIGHEST total number of infections
+SELECT TOP 20 continent, location, MAX(total_cases) as HighestCasesCount
+FROM PortfolioProject01..CovidCases
+WHERE continent = 'africa'
+GROUP BY continent, location
+ORDER BY HighestCasesCount DESC
+
 --HOW ABOUT BREAKING DEATHS AND CASES BY CONTINENTS RESPECTIVELY? 
 
 SELECT continent, MAX(Cast(total_deaths as int)) as HighestDeathsCount
