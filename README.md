@@ -18,11 +18,19 @@
 #PortfolioProject02:
 
 #This project is all about cleaning data in SQL for future use. 
+
 #This is the <a href="https://www.kaggle.com/tmthyjames/nashville-housing-data/version/1?select=Nashville_housing_data_2013_2016.csv" target="_blank">dataset</a> used
+
 #It involves:
+
 #changing data type
+
 #Checking and replacing null values
+
 #Splitting columns for instance, address columns
+
 #Check categorical column and replace with right naming where necessary
+
 #Getting rid of duplicates and unuseful columns
+
 #etc
