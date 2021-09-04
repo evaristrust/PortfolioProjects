@@ -18,7 +18,7 @@
 #PortfolioProject02:
 
 #This project is all about cleaning data in SQL for future use. 
-#[Dataset used for this project:](url) 
+#This is the <a href="https://www.kaggle.com/tmthyjames/nashville-housing-data/version/1?select=Nashville_housing_data_2013_2016.csv" target="_blank">dataset</a> used
 #It involves:
 #changing data type
 #Checking and replacing null values
