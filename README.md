@@ -5,8 +5,8 @@
 
 #a SQL Data Exploration Project
 
-#studies covid19 dataset from [this dataset](url)
-
+#studies covid19 data from <a href="https://ourworldindata.org/covid-deaths" target="_blank">this dataset</a>
+   
 #dataset contains daily covid cases, deaths, population, and vaccinations information across the world
 
 #had to split dataset into two tables (CovidCases and CovidVaccinations)
