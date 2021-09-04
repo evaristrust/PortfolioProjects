@@ -3,7 +3,7 @@
 
 #PortfolioProject01: 
 
-#a sql data exploration project. 
+#a SQL Data Exploration Project
 
 #studies covid19 dataset from https://ourworldindata.org/covid-deaths
 
