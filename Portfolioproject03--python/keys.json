@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "fluted-karma-312211",
+  "private_key_id": "66d357a6e8050fdb4fd64ff766fa509b6091b583",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC32GaxRv+0zANv\nFYJ5qIIdVqZ5KVxjzmQgF9G06Pf8eztnDOS48nW26elqSug4wub/Gnbb5scfVK+S\nS2jaMf6NVI+fsxsag4OHPyJNq80y0/h/kF18zKqwxjRXUjQiDVspMhPE/SZJpqKa\nqZkOnIAIBijaGqKKaNSLaA43C30oScsymVqk3JRYju7oMNNU+/FkmwnSah6SR7AJ\nU17KALsf5fwTrVyZODMr1224WKZYFFSXn+YI80A9/Wz+Z6YnUhEOYUvNuH93pycp\niQRl0DyiMvm7RzIad0I47F+rIHK0j/lE3pYXI2srNa3hQYHMHfvy6w+78+SWbrkB\ntb1WPicbAgMBAAECggEAA9pbsJxx0Hq0GbhkLyOKco312DU3M/pH2+pT4Uw+okJ8\n6Lh69KtULzywwSMHweTHzZHi6tHn2269bT36WRRSJukeR3UL/N7Du2pl0CXpG4cY\nvqeqZequKx1ETI4y/IG2JuNfSbIagtGkt8QVKpq6DjD+2y9St77hsXhBUAMEIPt9\n2EYDZikUMTgATFFYDav7ihno+u0NCWrQ8/LkawNiVfQr3LeKQsfrxMWBqjJdu4mL\nh1KDZaUnQSRLHvwYK9CDB5IfbIWaOR4OdmBPf+/33QPGz46cw9POMZJCke8GfKlK\nV2uj1FK6PvI8ZabibPApXXKAK82fY/iVBd50uDuzwQKBgQDaIL+LMdWlV3U/Vuea\nG77+ZpVsDvBrjel+pX4bDeV5W4yT3Molo5qw0KfYd8oTcuDUroQ2i//eiUnQwZQ5\nodwI8WyQaIKGBthxvaXDRpcIG/8naPszHEfq1oKTYsEGMasA52zVq+lfPcVNbmYB\nzTZ6w/sNrPVQcqrVkaVwYYCkWwKBgQDXw+AFp69cK6c9/+EO6UWrf3nP7oZJh2yR\nm8cH7DsQT9tx7WB4OkOpjeyuv8JPEbIK+ocAoRmb/UopF8nLx/dpe+QNMQShPVAj\nZrYUQAiAqm2iLAJQXHuRpxrWZ5MRPbGe3GBHLqQWPU7zJ5k5wvcavpKDiiPprEwj\nGO68GXkEQQKBgQCSpG+BSaiC9rAJPAiJ71tQtnB/6+8vr4EpNmL4FziNhMGWalmw\nQjPt6OjeO3Ir7xA9i3GxJh+HYS6x3GIk+K7viDbfQpN1PUbn+IJnLJ6+weugeBBg\nxQOIWlwAb+SqoFuBSRQ+9cr3z5REQRLs5SRaFkVCZWOqiNxWpgrd6X7NfwKBgA4r\nfvrgGFQlScZ4l38zMrAgnw9YytjpW+f0Iw4SJY7cr7y7qio7KVZpS7HuRgSLVPYD\nnfocmmH0MHqiZU5Mw6LZ0BBNt9AfBrRMeoi569UHXEvaOAyvBi56mviZtL7dHl0g\ne/IwzfXn8NdnMljoxPGsslKRL+qYtidX69XOlnQBAoGATRiuKwrnkWtJPUkYzB8g\nTrPGxkrs15+nmLZy+8acCsEqqGATp9ZAmZYvZApnkxwfNy1xm58c4B4WIMhA/aqn\nxMG2wIgeUNZfcdZ205eMB69yuBdj8IjDMEStCPeSv3886y96RAl2SsMUUzQ+Fa8E\nnqxj9Zde1R8BmOExJQ3BmJ4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "chezwalter@fluted-karma-312211.iam.gserviceaccount.com",
+  "client_id": "108823566421090154096",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/chezwalter%40fluted-karma-312211.iam.gserviceaccount.com"
+}

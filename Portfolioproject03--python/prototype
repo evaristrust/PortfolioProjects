@@ -1,0 +1,84 @@
+CHEZ WALTER: DATAFRAME COLUMNS
+
+Timestamp: time_stamp
+Icyakozwe: action [dtype: object]['Gucuruza', 'Kurangura', 'Kurangura igicuruzwa gishya, 'Ideni', Kwishyura ideni, Kugura igikoresho, Kwishyura Service, Ibyangiritse]
+
+
+::::::::::::::::::::::;GUCURUZA:::::::::::::::::::::::::::
+timestamp:  time_stamp
+icyakozwe:  action
+ucuruje iki?:  product_sold_name
+ingano ucuruje: quantity_sold
+ucuruje ikarito: case_sold?
+Igiciro kukintu kimwe ucuruje:  unit_sell_price
+Ucuruje angahe yose hamwe?:  total_sell_price
+
+:::::::::::::::::::::Kurangura:::::::::::::::::::
+timestamp: time_stamp
+icyakozwe: action
+uranguye iki: product_purchase_name
+ingano uranguye: quantity_purchase
+uranguye ikarito: case_purchase?
+igiciro kukintu kimwe uranguye: unit_purchase_price
+amafaranga yose: total_purchase_price
+
+::::::::::::::::::::::::Kurangura Igishya:::::::::::::::::::::::::::
+timestamp: time_stamp
+icyakozwe: action
+uranguye iki gishya: new_purchase_name
+ingano y'ikintu gishya: quantity_new_purchase
+ese ni ikarito:  case_new_purchase?
+igiciro kimwe: new_purchase_unit_priced
+igiciro total: new_purchase_total
+
+:::::::::::::::::::::Kugura igikoresho:::::::::::::::::::::::::::::::
+timestamp: time_stamp
+icyakozwe: action
+Izina ry'igikoresho: tool_name
+Ingano y'igikoresho: tool_quantity
+yaba ari ikarito?: case_tool?
+igiciro kukintu kimwe: tool_unit_price
+Amafaranga yose: tool_total_price
+
+
+:::::::::::::::::::::Gutanga ideni:::::::::::::::::::::::::::::::::::::
+timestamp: time_stamp
+icyakozwe: action
+utanze ideni ry'iki: product_credited
+umubare wacyo: product_cred_quantity
+ese ukopye ikarito (correct in the form): product_cred_case?
+igiciro kukintu kimwe: product_cred_unit_price
+ideni ryose: product_cred_total
+amazina y'uwo uhaye ideni: debtor_name
+
+
+::::::::::::::::::::Kwishyura ideni:::::::::::::::::::::::::::::::::::::::
+timestamp: time_stamp
+icyakozwe: action
+Izina ry'uwishyura: payer_name
+Amafaranga aturimo: credit_balance
+Amafaranga yishyuye: total_repay
+
+
+::::::::::::::::::::Kwishyura service::::::::::::::::::::::::::::::::::::::
+timestamp: time_stamp
+icyakozwe: action
+Service wishyuye: service_name
+Amafaranga: service_amount
+
+:::::::::::::::::::Igikoresho cyangiritse:::::::::::::::::::::::::::::::::::
+timestamp: time_stamp
+icyakozwe: action
+Hangiritse iki?: dmaged_product_name
+Agaciro k'icyangiritse: amount_dmaged
+
+:::CODING FOR DATA ANALYSIS:::
+
+:::CREDITING SECTION:::::
+a)total amount on credit (grouped by month with subtotals)
+b)set the maximum credit to be 10,000 (completed)
+--- notify me whether allowed to give out credit or not! compare total given and repaid (completed)
+--- show over limit amount
+c) group credits by owners/debtor_name (total debt, repaid, balance)
+----When the balance is 0, remove the debtor from the list
+d) Old debts and newly debts
